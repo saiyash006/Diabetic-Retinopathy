@@ -1,1 +1,8 @@
-/fold1_best.pth
+/fold1_best.pth*.pth
+*.pt
+*.ckpt
+__pycache__/
+*.pth
+*.pt
+*.ckpt
+__pycache__/
