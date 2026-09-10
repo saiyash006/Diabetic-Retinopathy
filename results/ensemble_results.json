@@ -1,0 +1,657 @@
+{
+  "fold_qwks": [
+    0.8363200067466845,
+    0.8386551856965138,
+    0.8498236682507005,
+    0.8436692838641968,
+    0.8425270430879486
+  ],
+  "mean_qwk": 0.8421990375292088,
+  "std_qwk": 0.0046373719782909365,
+  "max_qwk": 0.8498236682507005,
+  "ensemble_qwk": 0.8404733687702646,
+  "ensemble_qwk_argmax": 0.8172334674595361,
+  "ensemble_qwk_opt": 0.8404733687702646,
+  "opt_thresholds": [
+    0.7699997425079346,
+    1.5099999904632568,
+    2.490000009536743,
+    3.509999990463257
+  ],
+  "ensemble_accuracy": 0.7950482783032782,
+  "ensemble_balanced_acc": 0.6247420725301362,
+  "ensemble_macro_f1": 0.6222665875122089,
+  "ensemble_weighted_f1": 0.8046610783059868,
+  "ensemble_macro_auc": 0.8952699175651,
+  "ensemble_weighted_auc": 0.9079149985888461,
+  "ensemble_macro_ap": 0.6449762043789529,
+  "ensemble_mcc": 0.60654021710024,
+  "ensemble_mae": 0.2589132957070657,
+  "ensemble_within1_acc": 0.9507777624825471,
+  "ensemble_per_class_f1": {
+    "No DR": 0.9036581379453805,
+    "Mild NPDR": 0.2523842754128867,
+    "Moderate NPDR": 0.7160919540229885,
+    "Severe NPDR": 0.4592914853946551,
+    "Proliferative DR": 0.7799070847851336
+  },
+  "ensemble_per_class_auc": {
+    "No DR": 0.9183908848351604,
+    "Mild NPDR": 0.7465316216697646,
+    "Moderate NPDR": 0.9118859942333604,
+    "Severe NPDR": 0.9241756526521855,
+    "Proliferative DR": 0.9753654344350292
+  },
+  "ensemble_per_class_ap": {
+    "No DR": 0.9419570119104105,
+    "Mild NPDR": 0.21622820487347744,
+    "Moderate NPDR": 0.7949458102205826,
+    "Severe NPDR": 0.44535390579874884,
+    "Proliferative DR": 0.8263960890915452
+  },
+  "ensemble_per_class_sens": {
+    "No DR": 0.9067569179389313,
+    "Mild NPDR": 0.3215767634854772,
+    "Moderate NPDR": 0.641066417212348,
+    "Severe NPDR": 0.5519044062733384,
+    "Proliferative DR": 0.7024058577405857
+  },
+  "ensemble_per_class_spec": {
+    "No DR": 0.806121859659255,
+    "Mild NPDR": 0.9128209448785728,
+    "Moderate NPDR": 0.9602350539080202,
+    "Severe NPDR": 0.9769752787203102,
+    "Proliferative DR": 0.9961380494084473
+  },
+  "ensemble_confusion_matrix": [
+    [
+      30409,
+      2525,
+      524,
+      52,
+      26
+    ],
+    [
+      1873,
+      1085,
+      393,
+      17,
+      6
+    ],
+    [
+      1418,
+      1536,
+      6853,
+      782,
+      101
+    ],
+    [
+      34,
+      45,
+      465,
+      739,
+      56
+    ],
+    [
+      32,
+      33,
+      215,
+      289,
+      1343
+    ]
+  ],
+  "fold_details": [
+    {
+      "qwk": 0.8363200067466845,
+      "qwk_linear": 0.7516875246363395,
+      "accuracy": 0.8123279591034211,
+      "balanced_accuracy": 0.6468706296924266,
+      "macro_f1": 0.6516594907932284,
+      "weighted_f1": 0.8135150815773328,
+      "micro_f1": 0.8123279591034211,
+      "per_class_f1": {
+        "No DR": 0.9074709705689038,
+        "Mild NPDR": 0.2662162162162162,
+        "Moderate NPDR": 0.7263267429760666,
+        "Severe NPDR": 0.532258064516129,
+        "Proliferative DR": 0.826025459688826
+      },
+      "macro_precision": 0.6674473648835502,
+      "macro_recall": 0.6468706296924266,
+      "per_class_precision": {
+        "No DR": 0.8882058613295211,
+        "Mild NPDR": 0.2459425717852684,
+        "Moderate NPDR": 0.817809021675454,
+        "Severe NPDR": 0.47277936962750716,
+        "Proliferative DR": 0.9125
+      },
+      "per_class_recall": {
+        "No DR": 0.9275903254702896,
+        "Mild NPDR": 0.29013254786450665,
+        "Moderate NPDR": 0.6532522227421619,
+        "Severe NPDR": 0.6088560885608856,
+        "Proliferative DR": 0.7545219638242894
+      },
+      "macro_auc": 0.9081946673173533,
+      "weighted_auc": 0.9090429340579779,
+      "per_class_auc": {
+        "No DR": 0.913387819906199,
+        "Mild NPDR": 0.7719158850013815,
+        "Moderate NPDR": 0.9201660144448757,
+        "Severe NPDR": 0.9539004409335075,
+        "Proliferative DR": 0.9816031763008033
+      },
+      "per_class_ap": {
+        "No DR": 0.9402940759853076,
+        "Mild NPDR": 0.26469187387960214,
+        "Moderate NPDR": 0.8182624394117757,
+        "Severe NPDR": 0.5834103782977749,
+        "Proliferative DR": 0.8887328765584461
+      },
+      "macro_ap": 0.6990783288265814,
+      "mcc": 0.6300471083085943,
+      "per_class_sensitivity": {
+        "No DR": 0.9275903254702896,
+        "Mild NPDR": 0.29013254786450665,
+        "Moderate NPDR": 0.6532522227421619,
+        "Severe NPDR": 0.6088560885608856,
+        "Proliferative DR": 0.7545219638242894
+      },
+      "per_class_specificity": {
+        "No DR": 0.7748992515831894,
+        "Mild NPDR": 0.9363741704413778,
+        "Moderate NPDR": 0.9612943372744244,
+        "Severe NPDR": 0.9814160185839814,
+        "Proliferative DR": 0.9971384772611139
+      },
+      "per_class_accuracy": {
+        "No DR": 0.9275903254702896,
+        "Mild NPDR": 0.29013254786450665,
+        "Moderate NPDR": 0.6532522227421619,
+        "Severe NPDR": 0.6088560885608856,
+        "Proliferative DR": 0.7545219638242894
+      },
+      "mean_absolute_error": 0.25068816358631535,
+      "within_one_accuracy": 0.9429807314195832,
+      "confusion_matrix": [
+        [
+          6213,
+          334,
+          131,
+          15,
+          5
+        ],
+        [
+          417,
+          197,
+          64,
+          0,
+          1
+        ],
+        [
+          346,
+          256,
+          1396,
+          124,
+          15
+        ],
+        [
+          9,
+          8,
+          82,
+          165,
+          7
+        ],
+        [
+          10,
+          6,
+          34,
+          45,
+          292
+        ]
+      ]
+    },
+    {
+      "qwk": 0.8386551856965138,
+      "qwk_linear": 0.7285400859170011,
+      "accuracy": 0.767082882705732,
+      "balanced_accuracy": 0.6270661176458553,
+      "macro_f1": 0.5980326375965561,
+      "weighted_f1": 0.7864444647124628,
+      "micro_f1": 0.767082882705732,
+      "per_class_f1": {
+        "No DR": 0.8949516324062878,
+        "Mild NPDR": 0.23417085427135678,
+        "Moderate NPDR": 0.6703631827003049,
+        "Severe NPDR": 0.4190012180267966,
+        "Proliferative DR": 0.7716763005780347
+      },
+      "macro_precision": 0.6168239933608557,
+      "macro_recall": 0.6270661176458553,
+      "per_class_precision": {
+        "No DR": 0.9068770102619084,
+        "Mild NPDR": 0.1779984721161192,
+        "Moderate NPDR": 0.8230088495575221,
+        "Severe NPDR": 0.30935251798561153,
+        "Proliferative DR": 0.8668831168831169
+      },
+      "per_class_recall": {
+        "No DR": 0.8833358197821871,
+        "Mild NPDR": 0.342143906020558,
+        "Moderate NPDR": 0.5654817586529467,
+        "Severe NPDR": 0.6490566037735849,
+        "Proliferative DR": 0.6953125
+      },
+      "macro_auc": 0.8964539253766686,
+      "weighted_auc": 0.9096432581742546,
+      "per_class_auc": {
+        "No DR": 0.9233388241695217,
+        "Mild NPDR": 0.7457411696986858,
+        "Moderate NPDR": 0.9038251007857323,
+        "Severe NPDR": 0.9292633776365763,
+        "Proliferative DR": 0.9801011545928272
+      },
+      "per_class_ap": {
+        "No DR": 0.9462912390451208,
+        "Mild NPDR": 0.22690565738161,
+        "Moderate NPDR": 0.7887910869302459,
+        "Severe NPDR": 0.3749753750313548,
+        "Proliferative DR": 0.8156449654754888
+      },
+      "macro_ap": 0.6305216647727641,
+      "mcc": 0.5701801560665903,
+      "per_class_sensitivity": {
+        "No DR": 0.8833358197821871,
+        "Mild NPDR": 0.342143906020558,
+        "Moderate NPDR": 0.5654817586529467,
+        "Severe NPDR": 0.6490566037735849,
+        "Proliferative DR": 0.6953125
+      },
+      "per_class_specificity": {
+        "No DR": 0.8246828143021915,
+        "Mild NPDR": 0.8866174920969442,
+        "Moderate NPDR": 0.9676335117639736,
+        "Severe NPDR": 0.9612356147789218,
+        "Proliferative DR": 0.9958107693879636
+      },
+      "per_class_accuracy": {
+        "No DR": 0.8833358197821871,
+        "Mild NPDR": 0.342143906020558,
+        "Moderate NPDR": 0.5654817586529467,
+        "Severe NPDR": 0.6490566037735849,
+        "Proliferative DR": 0.6953125
+      },
+      "mean_absolute_error": 0.28128994199193785,
+      "within_one_accuracy": 0.9570347065185331,
+      "confusion_matrix": [
+        [
+          5921,
+          656,
+          99,
+          20,
+          7
+        ],
+        [
+          372,
+          233,
+          67,
+          7,
+          2
+        ],
+        [
+          225,
+          405,
+          1209,
+          276,
+          23
+        ],
+        [
+          8,
+          10,
+          66,
+          172,
+          9
+        ],
+        [
+          3,
+          5,
+          28,
+          81,
+          267
+        ]
+      ]
+    },
+    {
+      "qwk": 0.8498236682507005,
+      "qwk_linear": 0.756554791056517,
+      "accuracy": 0.8032641824795989,
+      "balanced_accuracy": 0.6380709625166668,
+      "macro_f1": 0.6404196527103077,
+      "weighted_f1": 0.8131095492243622,
+      "micro_f1": 0.8032641824795989,
+      "per_class_f1": {
+        "No DR": 0.9039278527241559,
+        "Mild NPDR": 0.2619324796274738,
+        "Moderate NPDR": 0.7406844106463878,
+        "Severe NPDR": 0.48928571428571427,
+        "Proliferative DR": 0.8062678062678063
+      },
+      "macro_precision": 0.6537237139723592,
+      "macro_recall": 0.6380709625166668,
+      "per_class_precision": {
+        "No DR": 0.904669550947337,
+        "Mild NPDR": 0.21367521367521367,
+        "Moderate NPDR": 0.81438127090301,
+        "Severe NPDR": 0.4597315436241611,
+        "Proliferative DR": 0.8761609907120743
+      },
+      "per_class_recall": {
+        "No DR": 0.9031873696753053,
+        "Mild NPDR": 0.3383458646616541,
+        "Moderate NPDR": 0.6792189679218968,
+        "Severe NPDR": 0.5229007633587787,
+        "Proliferative DR": 0.7467018469656992
+      },
+      "macro_auc": 0.8992558176056228,
+      "weighted_auc": 0.9099150024164424,
+      "per_class_auc": {
+        "No DR": 0.9199058538584899,
+        "Mild NPDR": 0.7364033637639228,
+        "Moderate NPDR": 0.915899233784437,
+        "Severe NPDR": 0.9447237032568896,
+        "Proliferative DR": 0.9793469333643747
+      },
+      "per_class_ap": {
+        "No DR": 0.9436287874243152,
+        "Mild NPDR": 0.1905119162961415,
+        "Moderate NPDR": 0.8128870864929894,
+        "Severe NPDR": 0.515256085961067,
+        "Proliferative DR": 0.862829219435943
+      },
+      "macro_ap": 0.6650226191220913,
+      "mcc": 0.6225618250908637,
+      "per_class_sensitivity": {
+        "No DR": 0.9031873696753053,
+        "Mild NPDR": 0.3383458646616541,
+        "Moderate NPDR": 0.6792189679218968,
+        "Severe NPDR": 0.5229007633587787,
+        "Proliferative DR": 0.7467018469656992
+      },
+      "per_class_specificity": {
+        "No DR": 0.8151576511426092,
+        "Mild NPDR": 0.9128971176099305,
+        "Moderate NPDR": 0.9584788029925188,
+        "Severe NPDR": 0.9837521445150873,
+        "Proliferative DR": 0.9959150326797386
+      },
+      "per_class_accuracy": {
+        "No DR": 0.9031873696753053,
+        "Mild NPDR": 0.3383458646616541,
+        "Moderate NPDR": 0.6792189679218968,
+        "Severe NPDR": 0.5229007633587787,
+        "Proliferative DR": 0.7467018469656992
+      },
+      "mean_absolute_error": 0.24678006095762461,
+      "within_one_accuracy": 0.9530036377937272,
+      "confusion_matrix": [
+        [
+          6064,
+          535,
+          107,
+          3,
+          5
+        ],
+        [
+          357,
+          225,
+          75,
+          5,
+          3
+        ],
+        [
+          277,
+          283,
+          1461,
+          113,
+          17
+        ],
+        [
+          2,
+          3,
+          105,
+          137,
+          15
+        ],
+        [
+          3,
+          7,
+          46,
+          40,
+          283
+        ]
+      ]
+    },
+    {
+      "qwk": 0.8436692838641968,
+      "qwk_linear": 0.7496822432794339,
+      "accuracy": 0.7977185563968925,
+      "balanced_accuracy": 0.6079313438943792,
+      "macro_f1": 0.6182900083885798,
+      "weighted_f1": 0.8072377636181668,
+      "micro_f1": 0.7977185563968925,
+      "per_class_f1": {
+        "No DR": 0.9070304928054872,
+        "Mild NPDR": 0.2474460839954597,
+        "Moderate NPDR": 0.731457800511509,
+        "Severe NPDR": 0.46511627906976744,
+        "Proliferative DR": 0.7403993855606759
+      },
+      "macro_precision": 0.6466405043536883,
+      "macro_recall": 0.6079313438943792,
+      "per_class_precision": {
+        "No DR": 0.9042663891779397,
+        "Mild NPDR": 0.20335820895522388,
+        "Moderate NPDR": 0.8074534161490683,
+        "Severe NPDR": 0.425531914893617,
+        "Proliferative DR": 0.8925925925925926
+      },
+      "per_class_recall": {
+        "No DR": 0.9098115465151062,
+        "Mild NPDR": 0.3159420289855073,
+        "Moderate NPDR": 0.6685366993922394,
+        "Severe NPDR": 0.5128205128205128,
+        "Proliferative DR": 0.6325459317585301
+      },
+      "macro_auc": 0.8991759709663633,
+      "weighted_auc": 0.9136075935297313,
+      "per_class_auc": {
+        "No DR": 0.9228981217174759,
+        "Mild NPDR": 0.7595115671407886,
+        "Moderate NPDR": 0.9232648198055796,
+        "Severe NPDR": 0.9177397313007661,
+        "Proliferative DR": 0.9724656148672057
+      },
+      "per_class_ap": {
+        "No DR": 0.9467005250458617,
+        "Mild NPDR": 0.2233853566568586,
+        "Moderate NPDR": 0.8018344359275593,
+        "Severe NPDR": 0.4285534488298951,
+        "Proliferative DR": 0.7884794518156909
+      },
+      "macro_ap": 0.6377906436551731,
+      "mcc": 0.6122573045758252,
+      "per_class_sensitivity": {
+        "No DR": 0.9098115465151062,
+        "Mild NPDR": 0.3159420289855073,
+        "Moderate NPDR": 0.6685366993922394,
+        "Severe NPDR": 0.5128205128205128,
+        "Proliferative DR": 0.6325459317585301
+      },
+      "per_class_specificity": {
+        "No DR": 0.8151019236290554,
+        "Mild NPDR": 0.9099061082392658,
+        "Moderate NPDR": 0.9575342465753425,
+        "Severe NPDR": 0.9809013742926435,
+        "Proliferative DR": 0.9970371883939517
+      },
+      "per_class_accuracy": {
+        "No DR": 0.9098115465151062,
+        "Mild NPDR": 0.3159420289855073,
+        "Moderate NPDR": 0.6685366993922394,
+        "Severe NPDR": 0.5128205128205128,
+        "Proliferative DR": 0.6325459317585301
+      },
+      "mean_absolute_error": 0.2519421772052316,
+      "within_one_accuracy": 0.9552561707149179,
+      "confusion_matrix": [
+        [
+          6083,
+          502,
+          92,
+          5,
+          4
+        ],
+        [
+          385,
+          218,
+          84,
+          3,
+          0
+        ],
+        [
+          244,
+          331,
+          1430,
+          121,
+          13
+        ],
+        [
+          8,
+          6,
+          107,
+          140,
+          12
+        ],
+        [
+          7,
+          15,
+          58,
+          60,
+          241
+        ]
+      ]
+    },
+    {
+      "qwk": 0.8425270430879486,
+      "qwk_linear": 0.7484453521878187,
+      "accuracy": 0.8005507474429583,
+      "balanced_accuracy": 0.611686017481694,
+      "macro_f1": 0.6129067942890326,
+      "weighted_f1": 0.80854482807385,
+      "micro_f1": 0.8005507474429583,
+      "per_class_f1": {
+        "No DR": 0.9089836259035255,
+        "Mild NPDR": 0.2720763723150358,
+        "Moderate NPDR": 0.7157894736842105,
+        "Severe NPDR": 0.40672268907563025,
+        "Proliferative DR": 0.7609618104667609
+      },
+      "macro_precision": 0.6268869676546214,
+      "macro_recall": 0.611686017481694,
+      "per_class_precision": {
+        "No DR": 0.9031217939322879,
+        "Mild NPDR": 0.22418879056047197,
+        "Moderate NPDR": 0.8119402985074626,
+        "Severe NPDR": 0.37003058103975534,
+        "Proliferative DR": 0.8251533742331288
+      },
+      "per_class_recall": {
+        "No DR": 0.9149220489977729,
+        "Mild NPDR": 0.34597875569044007,
+        "Moderate NPDR": 0.64,
+        "Severe NPDR": 0.45149253731343286,
+        "Proliferative DR": 0.7060367454068242
+      },
+      "macro_auc": 0.8859698469102483,
+      "weighted_auc": 0.905181991030684,
+      "per_class_auc": {
+        "No DR": 0.919128330187959,
+        "Mild NPDR": 0.7328819227403923,
+        "Moderate NPDR": 0.9026033013727685,
+        "Severe NPDR": 0.9018125282677522,
+        "Proliferative DR": 0.9734231519823688
+      },
+      "per_class_ap": {
+        "No DR": 0.9431296567161148,
+        "Mild NPDR": 0.19431000856387132,
+        "Moderate NPDR": 0.7841956143686509,
+        "Severe NPDR": 0.3860655366663281,
+        "Proliferative DR": 0.7912079745686134
+      },
+      "macro_ap": 0.6197817581767157,
+      "mcc": 0.6128799764293625,
+      "per_class_sensitivity": {
+        "No DR": 0.9149220489977729,
+        "Mild NPDR": 0.34597875569044007,
+        "Moderate NPDR": 0.64,
+        "Severe NPDR": 0.45149253731343286,
+        "Proliferative DR": 0.7060367454068242
+      },
+      "per_class_specificity": {
+        "No DR": 0.8074570346635596,
+        "Mild NPDR": 0.9170259753917341,
+        "Moderate NPDR": 0.9608355091383812,
+        "Severe NPDR": 0.9791919191919192,
+        "Proliferative DR": 0.9941759476857055
+      },
+      "per_class_accuracy": {
+        "No DR": 0.9149220489977729,
+        "Mild NPDR": 0.34597875569044007,
+        "Moderate NPDR": 0.64,
+        "Severe NPDR": 0.45149253731343286,
+        "Proliferative DR": 0.7060367454068242
+      },
+      "mean_absolute_error": 0.25363886703383165,
+      "within_one_accuracy": 0.9500393391030685,
+      "confusion_matrix": [
+        [
+          6162,
+          485,
+          76,
+          7,
+          5
+        ],
+        [
+          345,
+          228,
+          85,
+          1,
+          0
+        ],
+        [
+          299,
+          286,
+          1360,
+          144,
+          36
+        ],
+        [
+          10,
+          16,
+          105,
+          121,
+          16
+        ],
+        [
+          7,
+          2,
+          49,
+          54,
+          269
+        ]
+      ]
+    }
+  ],
+  "laot_qwk": 0.8296,
+  "beats_laot": true
+}
