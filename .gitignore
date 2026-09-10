@@ -1,8 +1,73 @@
-/fold1_best.pth*.pth
-*.pt
-*.ckpt
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/git lfs install
+git lfs track "*.pth"
+git lfs migrate import --include="*.pth"
+git push origin main --force
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# ML datasets
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Trained models / weights
+*.h5
+*.hdf5
+*.keras
 *.pth
 *.pt
 *.ckpt
-__pycache__/
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+
+# TensorFlow
+checkpoint/
+saved_model/
+
+# Logs
+logs/
+*.log
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
